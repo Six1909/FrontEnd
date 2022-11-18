@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica Tienda Virtual</title>
+</head>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Bocas Shopping, Dandote felicidad desde 2012</h1>
+    </header>
+    <img src="./BocasShopping.png" alt="Logo de Tienda" />
+    <hr>
+
+    <section>
+        <h2>Catalogo</h2>
+
+        <h3>Jeans</h3>
+        <ul>
+            <li>Rojo...............$30 </li>
+            <li>Negro..............$30 </li>
+            <li>Blanco.............$30 </li>
+            <li>Caqui..............$30 </li>
+        </ul>
+
+        <h3>Tshirt</h3>
+        <ul>
+            <li>Blanco................$30 </li>
+            <li>Rojo Vino...........$30 </li>
+            <li>Aqua..................$30 </li>
+            <li>Caqui.................$30 </li>
+        </ul>
+
+        <h3>Oferta</h3>
+        <dl>
+            <dt><b>Sueter.</b>..............$10</dt>
+            <dd>- 3 Sueteres estilizados y perfectos para verano a medio precio</dd>
+            <dt><b>Jeans</b>.................$10</dt>
+            <dd>- 2 Jeans cortos perfectos para verano por el precio de uno</dd>
+            <dt><b>Boxers</b>.................$7</dt>
+            <dd>- Lleva 1 Boxer gratis por la compra de 3</dd>
+        </dl>
+
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Ubicacion</h2>
+        <h3>Sucurcales</h3>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicacion</th>
+                <th>Horarios</th>
+            </tr>
+            <tr>
+                <td>Centro</td>
+                <td><a href="https://goo.gl/maps/vN8qNkPpH9Quh9nt7" target="_blank">Wolf Mall Center, Avenida 17 de
+                        abril</a></td>
+                <td>L - V 7AM-6PM</td>
+            </tr>
+            <tr>
+                <td>Norte</td>
+                <td><a href="https://goo.gl/maps/qY1BWMMmKyEmMb2aA" target="_blank">Av. Omar Torrijos Herrera</a></td>
+                <td>L - S 8AM-4PM</td>
+            </tr>
+
+        </table>
+    </section>
+
+
+    <hr>
+
+    <section>
+        <h2>Pedidos</h2>
+        <h3>Haz tu Pedido</h3>
+
+        <form action="">
+
+            <p>Que quieres llevar de nuestro catalogo</p>
+            <select>
+                <option value="Centro">Centro</option>
+                <option value="Norte">Norte</option>
+            </select>
+
+            <p>Que quieres llevar?</p>
+            <h3>Jeans</h3>
+            <input type="checkbox" id="Jeans" name="Jeans" value="Jeans">
+            <label for="Jeans">Rojo</label>
+            <input type="number" id="RojoNumber" name="RojoNumber" placeholder="Cuantos?">
+            <br>
+
+            <input type="checkbox" id="Jeans" name="Jeans" value="Jeans">
+            <label for="Jeans">Negro</label>
+            <input type="number" id="NegroNumber" name="NegroNumber" placeholder="Cuantos?">
+            <br>
+
+            <input type="checkbox" id="Jeans" name="Jeans" value="Jeans">
+            <label for="Jeans">Blanco</label>
+            <input type="number" id="BlancoNumber" name="BlancoNumber" placeholder="Cuantos?">
+            <br>
+            
+            <input type="checkbox" id="Jeans" name="Jeans" value="Jeans">
+            <label for="Jeans">Caqui</label>
+            <input type="number" id="CaquiNumber" name="CaquiNumber" placeholder="Cuantos?">
+            <br>
+
+            <h3>Tshirt</h3>
+
+            <input type="checkbox" id="Tshirt" name="Tshirt" value="Tshirt">
+            <label for="Tshirt">Blanco</label>
+            <input type="number" id="BlancoNumber" name="BlancoNumber" placeholder="Cuantos?">
+            <br>
+
+            <input type="checkbox" id="Tshirt" name="Tshirt" value="Tshirt">
+            <label for="Tshirt">Rojo Vino</label>
+            <input type="number" id="RojoNumber" name="RojoNumber" placeholder="Cuantos?">
+            <br>
+
+            <input type="checkbox" id="Tshirt" name="Tshirt" value="Tshirt">
+            <label for="Tshirt">Aqua</label>
+            <input type="number" id="AquaNumber" name="AquaNumber" placeholder="Cuantos?">
+            <br>
+
+            <input type="checkbox" id="Tshirt" name="Tshirt" value="Tshirt">
+            <label for="Tshirt">Caqui</label>
+            <input type="number" id="CaquiNumber" name="CaquiNumber" placeholder="Cuantos?">
+            <br></br>
+
+            <h3>Datos</h3>
+
+            <label for="Nombre">Nombre: </label>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Como te llamas?">
+            <br></br>
+
+            <label for="Nombre">Telefono: </label>
+            <input type="text" id="Tefelono" name="Tefelono" placeholder="Introduce tu numero  ">
+            <br></br>
+
+            <label for="Nombre">Direccion: </label>
+            <input type="text" id="Direccion" name="Direccion" placeholder="Donde Vives?">
+            <br></br>
+
+            <button type="submit">Enviar Pedido</button>
+            <br></br>
+
+        </form>
+    </section>
+
+
+
+</body>
+
+</html>
